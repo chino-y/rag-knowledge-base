@@ -1,0 +1,33 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== 环境变量（密钥不要提交）=====
+.env
+.env.*
+!.env.example
+
+# ===== 模型文件（体积过大，不提交）=====
+models/
+
+# ===== 向量数据库（可由 docs/ 重新构建）=====
+chroma_db/
+chroma_db_docs/
+
+# ===== 语料数据（敏感内容，请自行准备）=====
+docs/emotion.txt
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.iml
+
+# ===== Claude Code 本地设置 =====
+.claude/settings.local.json
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
